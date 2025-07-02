@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - Vitor Genz</title>
+    <link rel="stylesheet" href="css/style4.css">
+</head>
+
+<body>
+    <header>
+        <h1>Fale com a equipe do Vitor Genz 🏁</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="vitorias.html">Vitórias</a></li>
+                <li><a href="ultimosresultados.html">Últimos Resultados</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="formulario">
+            <h2>Inscreva-se na mentoria</h2>
+            <form>
+                <fieldset>
+                    <legend>Preencha seus dados</legend>
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+                    <label for="categoria">Categoria de interesse:</label>
+                    <select id="categoria" name="categoria" required>
+                        <option value="">Selecione...</option>
+                        <option value="kart">Kart</option>
+                        <option value="stock">Stock Car</option>
+                        <option value="endurance">Endurance</option>
+                        <option value="simulador">Simulador virtual</option>
+                    </select>
+
+                    <label for="nivel">Nível:</label>
+                    <select id="nivel" name="nivel" required>
+                        <option value="">Selecione...</option>
+                        <option value="Iniciante">Iniciante</option>
+                        <option value="Intermediário">Intermediário</option>
+                        <option value="Avançado">Avançado</option>
+                    </select>
+
+                    <label for="mensagem">Mensagem ou dúvida:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva aqui..."></textarea>
+
+                    <button type="submit">Enviar inscrição 🚀</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <aside class="endereco">
+            <h3>Endereço da equipe</h3>
+            <address>
+                Rua Carlos Von Koseritz 421/305<br>
+                Bairro São João, Porto Alegre / RS<br>
+                CEP 90540-030 - BR<br>
+                E-mail: <a href="mailto:equipe@vitorgenz.com.br">equipe@vitorgenz.com.br</a>
+            </address>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Vitor Genz. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>

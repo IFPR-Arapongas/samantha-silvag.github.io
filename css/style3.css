@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(209, 76, 76);
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #1f1f1f;
+    padding: 10px 0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.imag-box figure {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.imag-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(209, 76, 76);
+}
+
+
+.titulo {
+    text-align: center;
+    margin-bottom: 25px;
+    color: rgb(209, 76, 76);
+    font-size: 2rem;
+}
+
+table.tabela-resultados {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table th,
+table td {
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: center;
+    background-color: #1f1f1f;
+}
+
+table th {
+    background-color: rgb(209, 76, 76);
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+.botao-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 12px 25px;
+    color: #fff;
+    background-color: rgb(209, 76, 76);
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.classificacao-campeonato {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.classificacao-campeonato h2 {
+    color: rgb(209, 76, 76);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.classificacao-campeonato p {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+.classificacao-campeonato ol {
+    list-style: decimal;
+    padding-left: 20px;
+    color: #e0e0e0;
+    font-size: 1.1rem;
+}
+
+.classificacao-campeonato li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
